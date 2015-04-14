@@ -22,6 +22,8 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
         Button btn= (Button) findViewById(R.id.button);
 
+        // hi
+
         username= (EditText) findViewById(R.id.editText);
         password= (EditText) findViewById(R.id.editText2);
 
