@@ -6,21 +6,30 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+import android.widget.EditText;
+
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    EditText username,password;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button btn= (Button) findViewById(R.id.button1);
-        final TextView txt= (TextView) findViewById(R.id.hello);
+        Button btn= (Button) findViewById(R.id.button);
+
+        username= (EditText) findViewById(R.id.editText);
+        password= (EditText) findViewById(R.id.editText2);
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                txt.setText("welcome");
+                Toast.makeText(getApplicationContext(),"Welcome "+username.getText().toString()+
+                        " your password is"+password.getText().toString(),Toast.LENGTH_LONG).show();
 
             }
         });
