@@ -14,13 +14,7 @@ import android.widget.Toast;
 public class MainActivity extends ActionBarActivity {
 
     EditText username,password;
-/*dfkdsnfs
-    fsdkfkdsf;ksdmfdsf
-    sd;fmsd;lfmdsf
-    sdfsdmflsdnfkjsdf
-            sdjjfsdlfdsnfsdf
-    sdlfnnsdljfnsd;fksdf;ksdf
-    sdfjsdnflkksdfs'dfkoirejjwerjwel'*/
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
