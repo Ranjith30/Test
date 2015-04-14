@@ -1,0 +1,8 @@
+Index: app/src/main/java/com/nyqmind/helloworld/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/nyqmind/helloworld/MainActivity.java	(revision 1f5d7fc397c912a957fb7440f431ff3cba113572)
++++ app/src/main/java/com/nyqmind/helloworld/MainActivity.java	(revision )
+@@ -1,0 +1,0 @@
